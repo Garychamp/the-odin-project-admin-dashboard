@@ -1,3 +1,10 @@
 * { font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.sidebar {
+  background-color: blue;
+  padding: 20px;
+  width: 200px;
+}
+
+
