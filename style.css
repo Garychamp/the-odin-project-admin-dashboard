@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .main-sidebar {
@@ -16,6 +17,11 @@ body {
   background-color: blue;
   padding: 20px;
   width: 200px;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
 }
 
 .main-header {
@@ -25,6 +31,10 @@ body {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .top-row {
@@ -43,4 +53,9 @@ body {
   outline: 1px solid red;
   background-color: white;
   padding: 20px;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 6;
 }
