@@ -1,10 +1,47 @@
 * { font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sidebar {
+.body {
+  outline: 1px solid orange;
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2ft;
+}
+
+
+.main-sidebar {
+  outline: 1px solid green;
   background-color: blue;
   padding: 20px;
   width: 200px;
 }
 
+.main-header {
+  outline: 1px solid purple;
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.top-row {
+  outline: 1px solid turquoise;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.bottom-row {
+  outline: 1px solid brown;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+.main-content {
+  outline: 1px solid red;
+  background-color: white;
+  padding: 20px;
+}
 
