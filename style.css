@@ -1,15 +1,15 @@
-* { font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.body {
+body {
   outline: 1px solid orange;
   background-color: pink;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 2ft;
+  grid-template-columns: 1fr 2fr;
 }
-
 
 .main-sidebar {
   outline: 1px solid green;
@@ -44,4 +44,3 @@
   background-color: white;
   padding: 20px;
 }
-

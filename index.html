@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Admin Dashboard</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Dashboard</title>
+  </head>
 
-  <div class="main-sidebar">
-    <h1>Dashboard</h1>
+  <body>
+    <div class="main-sidebar">
+      <h1>Dashboard</h1>
       <div class="sidebar-dashboard">Dashboard</div>
       <div class="sidebar-home">Home</div>
       <div class="sidebar-profile">Profile</div>
@@ -20,54 +20,48 @@
       <div class="sidebar-settings">Settings</div>
       <div class="sidebar-support">Support</div>
       <div class="sidebar-privacy">Privacy</div>
-  </div>
-  
-  <header class="main-header">
-
-    <div class="top-row">
-      <icon class="search-icon">🔔</icon>
-      <search class="search-bar">
-      <input type="text" placeholder="Search...">
-      </search>
-      <icon class="bell"></icon>
-      <icon class="user-profile">👤</icon>
-      <paragraph class="name">Morgan Oatley</paragraph>
     </div>
 
-    <div class="bottom-row">
-      <icon class="pic">🏠</icon>
-      <paragraph class="welcome">Hi there, Morgan Oakley (@morgan)</paragraph>
-      <button class="New">New</button>
-      <button class="Upload">Upload</button>
-      <button class="Share">Share</button>
-    </div>
+    <header class="main-header">
+      <div class="top-row">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <form class="search-bar" action="#">
+          <input type="text" placeholder="Search..." />
+        </form>
+        <span class="bell" aria-hidden="true">🔔</span>
+        <span class="user-profile" aria-hidden="true">👤</span>
+        <p class="name">Morgan Oatley</p>
+      </div>
 
-  </header>
+      <div class="bottom-row">
+        <span class="pic" aria-hidden="true">🏠</span>
+        <p class="welcome">Hi there, Morgan Oakley (@morgan)</p>
+        <button class="New">New</button>
+        <button class="Upload">Upload</button>
+        <button class="Share">Share</button>
+      </div>
+    </header>
 
-  <main class="main-content">
+    <main class="main-content">
+      <div class="your-projects">
+        <p>Your Projects</p>
+        <div class="super-cool-projects">Super Cool Projects</div>
+        <div class="less-cool-projects">Less Cool Projects</div>
+        <div class="impossible-app">Impossible App</div>
+        <div class="easy-peasy-app">Easy Peasy App</div>
+        <div class="ad-blocker">Ad Blocker</div>
+        <div class="money-maker">Money Maker</div>
+      </div>
 
-    <div class="your-projects">
-      <p>Your Projects</p>
-      <div class="super-cool-projects">Super Cool Projects</div>
-      <div class="less-cool-projects">Less Cool Projects</div>
-      <div class="impossible-app">Impossible App</div>  
-      <div class="easy-peasy-app">Easy Peasy App</div>
-      <div class="ad-blocker">Ad Blocker</div>
-      <div class="money-maker">Money Maker</div>
-    </div>
+      <div class="announcements">
+        <p>Announcements</p>
+        <div class="announcement-1">Announcement 1: New feature released!</div>
+      </div>
 
-    <div class="announcements">
-      <p>Announcements</p>
-      <div class="announcement-1">Announcement 1: New feature released!</div>
-    </div>
-
-    <div class="trending">
-      <p>Trending</p>
-      <div class="trending-1">Trending 1: How to use the new dashboard</div>
-    </div>
-
-  </main>
-
-</body>
-
+      <div class="trending">
+        <p>Trending</p>
+        <div class="trending-1">Trending 1: How to use the new dashboard</div>
+      </div>
+    </main>
+  </body>
 </html>
