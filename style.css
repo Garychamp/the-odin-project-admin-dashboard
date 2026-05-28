@@ -72,3 +72,25 @@ body {
   grid-row-start: 1;
   grid-row-end: 5;
 }
+
+.announcements {
+  outline: 1px solid magenta;
+  background-color: lightcoral;
+  padding: 10px;
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.trending {
+  outline: 1px solid navy;
+  background-color: lightsteelblue;
+  padding: 10px;
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
