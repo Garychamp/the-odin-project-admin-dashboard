@@ -49,6 +49,15 @@ body {
   padding: 10px;
 }
 
+button {
+  padding: 10px 20px;
+  background-color: rgb(10, 100, 165);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
 .main-content {
   outline: 1px solid red;
   background-color: white;
@@ -67,10 +76,34 @@ body {
   background-color: lightgreen;
   padding: 10px;
   display: grid;
+  gap: 12px;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 5;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, auto));
+}
+
+.project-card {
+  background-color: white;
+  border-left: 6px solid rgb(10, 100, 165);
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.project-card h3 {
+  margin: 0 0 8px;
+}
+
+.project-card p {
+  margin: 0;
+  line-height: 1.4;
 }
 
 .announcements {
