@@ -54,8 +54,21 @@ body {
   background-color: white;
   padding: 20px;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 6;
+}
+
+.your-projects {
+  outline: 1px solid cyan;
+  background-color: lightgreen;
+  padding: 10px;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
 }
